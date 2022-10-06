@@ -1,0 +1,200 @@
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* div styling two boxes */
+.detail-div{
+    color: #fff;
+    background-color: #696149;
+    margin-top: 11% !important;
+    margin-bottom: -26% !important;
+    padding-bottom: -57% !important;
+    padding-right: 50% !important;
+    margin-right: 0% !important;
+    position: relative;
+    border-top-right-radius: -38px;
+   
+}
+.temp-div{
+    position: relative;
+    
+    border-radius: 50px;
+    background: linear-gradient(174deg, rgb(70, 68, 119) 0%, rgb(127, 154, 185) 0%, rgb(154, 132, 189) 100%);
+    color: white;
+    padding-top: 3% !important;
+    padding-bottom: 7% !important;
+    padding-left: 3% !important;
+    margin-top: 10% !important;
+    margin-left: 39% !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.temp{
+    position: relative;
+    font-size: 14rem;
+    padding: 0 !important;
+}
+.condition{
+    font-size: 2rem;
+    bottom: 10% !important;
+    left: 2%;
+    position: relative;
+    
+}
+.city{
+    font-size: 1.5rem;
+    position: relative;
+    top: 30%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500 !important;
+}
+
+
+.ic-temp, .ic-humid, .ic-pressure, .ic-speed{
+    margin-bottom: 10% !important;
+    font-size: 1.7rem;
+    margin-left: 5% !important;
+    margin-top: 4% !important;
+
+}
+.detail1{
+    position: absolute;
+    left: 12%;
+    top: 3.2%;
+}
+/* text */
+.temperature, .humidity, .pressure, .speed{
+    margin-bottom: 24% !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.detail2{
+    position: absolute;
+    right: 4%;
+    top: 3.7%;
+}
+
+
+.u-temp, .u-humid, .u-pressure, .u-speed{
+    margin-bottom: 467% !important;
+    font-family: 'Rajdhani', sans-serif !important; 
+}
+
+
+
+.sun{
+    display: flex;
+    margin-left: 31% !important;
+    position: absolute;
+    bottom: 8%;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px !important;
+    text-align: center;
+    right: 39%;}
+.sunset{
+    margin-left: 80% !important;
+}
+
+.sun-icon{
+    font-size: 2rem;
+}
+
+.time{
+    font-size: 1.3rem;
+    font-family: 'Rajdhani', sans-serif !important; 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px),(max-width: 768px){
+    .temp-div{
+       
+        margin-top: 5% !important;
+        margin-left: 1% !important;
+        
+    }
+    .city{
+        font-size: 1.5rem;
+        position: relative;
+        top: 1%;
+    }
+    .detail-div{
+        margin-top: 0% !important;
+        margin-bottom: 2% !important;
+        padding-bottom: 35% !important;
+        padding-right: 10% !important;
+        margin-right: 10% !important;
+        position: relative;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    
+        
+    }
+    .ic-temp, .ic-humid, .ic-pressure, .ic-speed{
+        margin-bottom: 4% !important;
+        font-size: 1.7rem;
+        margin-left: 5% !important;
+        margin-top: 1% !important;
+    }
+    .sun{
+        display: flex;
+        margin-left: 20% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1025px) {
+    .temp{
+        font-size: 10rem;
+    }
+    .city{
+        font-size: 1.3rem;
+    }
+    .ic-temp, .ic-humid, .ic-pressure, .ic-speed{
+        font-size: 1.3rem;
+    }
+    .temperature, .humidity, .pressure, .speed{
+        font-size: 1.3rem;
+        margin-bottom: 25% !important;
+    }
+    .detail1{
+        left: 12%;
+        top: 4.2%;
+    }
+    .detail2{
+        top: 4.7%;
+    }
+    .u-temp, .u-humid, .u-pressure, .u-speed{
+        margin-bottom: 47% !important;
+        font-size: 1.3rem;
+    }
+    .sun{
+        margin-left: 15% !important;
+    }
+    .text1{
+        font-size: 1.4rem;
+    }
+}
